@@ -3,13 +3,14 @@ package main
 import (
 	"bufio"
 	"fmt"
-	jira "github.com/andygrunwald/go-jira"
-	"golang.org/x/crypto/ssh/terminal"
 	"log"
 	"os"
 	"strings"
 	"syscall"
 	"time"
+
+	jira "github.com/imchetanyadav/go-jira"
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 func main() {
